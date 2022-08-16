@@ -81,6 +81,10 @@ class Login extends Component {
           </button>
           {showErrorMsg && <p className="errorMsg">*{errorMsg}</p>}
         </form>
+        <div className="loginDetailsDiv">
+          <p>username: "rahul"</p>
+          <p>password: "rahul@2021"</p>
+        </div>
       </div>
     )
   }

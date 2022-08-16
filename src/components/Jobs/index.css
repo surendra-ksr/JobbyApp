@@ -3,9 +3,13 @@
   min-height: 90vh;
   background-size: cover;
   color: #ffffff;
-}
-.jobsMain {
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .jobsMain {
+    flex-direction: column;
+  }
 }
 ul {
   padding-left: 0;

@@ -142,7 +142,11 @@ class JobItemDetails extends Component {
       <>
         <div className="jobCardDiv">
           <div className="jobTitleDiv">
-            <img src={companyLogoUrl} alt="job details company logo" />
+            <img
+              src={companyLogoUrl}
+              alt="job details company logo"
+              className="companyLogo"
+            />
             <div className="jobTitleRightDiv">
               <h1>{title}</h1>
               <div className="jobRatingDiv">

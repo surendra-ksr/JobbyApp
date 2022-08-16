@@ -1,12 +1,14 @@
 .loginMain {
   background-color: #000000;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
 }
+
 .formDiv {
   background-color: #202020;
   padding: 50px;
@@ -52,4 +54,10 @@ input {
   color: #ff0b37;
   font-size: 12px;
   align-self: flex-start;
+}
+.loginDetailsDiv {
+  align-self: flex-end;
+  border-radius: 30px;
+  border: 1px solid #475569;
+  padding: 20px;
 }

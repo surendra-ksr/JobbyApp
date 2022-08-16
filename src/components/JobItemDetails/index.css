@@ -8,6 +8,7 @@
   align-items: flex-start;
   padding: 50px;
 }
+
 .skillsDiv {
   display: flex;
   flex-wrap: wrap;
@@ -54,8 +55,30 @@
 .similarJobsDiv {
   display: flex;
   padding-left: 0;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 .loaderDiv {
   width: 100vw;
+}
+@media screen and (max-width: 767px) {
+  .jobCardDiv {
+    width: 80vw;
+  }
+  .similarDiv {
+    min-width: 280px;
+  }
+  .similarJobsDiv {
+    display: flex;
+  }
+  .jobDes {
+    font-size: 15px;
+  }
+  .companyLifeDesDiv {
+    flex-direction: column;
+  }
+  .skillImg {
+    width: 40px;
+    height: 40px;
+  }
 }
