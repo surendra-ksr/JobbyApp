@@ -1,0 +1,61 @@
+.jobItemDiv {
+  background-color: #000000;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+.skillsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachSkill {
+  display: flex;
+  width: 27vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.skillImg {
+  width: 50px;
+  margin-right: 15px;
+}
+.skillName {
+  font-size: 18px;
+  font-weight: 600;
+}
+.jobDes {
+  font-size: 19px;
+}
+.companyLifeDesDiv {
+  display: flex;
+}
+.desHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visitTag {
+  font-weight: 700;
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 20px;
+}
+.similarJobsH1 {
+  font-size: 25px;
+}
+.similarDiv {
+  width: 30vw;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+.similarJobsDiv {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+}
+.loaderDiv {
+  width: 100vw;
+}

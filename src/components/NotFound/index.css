@@ -1,0 +1,18 @@
+.NotFoundDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 90vh;
+  background-color: #000000;
+}
+.notFoundImg {
+  width: 40vw;
+}
+.notFoundH1 {
+  font-size: 45px;
+}
+.notFoundP {
+  font-size: 22px;
+}

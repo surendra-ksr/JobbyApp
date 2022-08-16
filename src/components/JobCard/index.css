@@ -1,0 +1,64 @@
+.jobCardDiv {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.jobTitleDiv {
+  display: flex;
+  align-items: center;
+}
+.companyLogo {
+  width: 70px;
+  height: 70px;
+}
+.jobTitleRightDiv {
+  margin-left: 10px;
+}
+.jobRatingDiv {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.ratingH1 {
+  margin-top: 0;
+}
+.ratingStar {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.locationSalaryDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.locationIcon {
+  color: #f1f5f9;
+  margin-right: 10px;
+}
+.locationDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.locationType {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 22px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: #f1f5f9;
+}
+.jobCardHr {
+  margin-top: 0;
+}
+p {
+  font-size: 14px;
+  color: #f1f5f9;
+}
+.linkItem {
+  text-decoration: none;
+}

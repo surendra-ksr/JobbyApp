@@ -1,0 +1,134 @@
+.jobsMain {
+  background-color: #000000;
+  min-height: 90vh;
+  background-size: cover;
+  color: #ffffff;
+}
+.jobsMain {
+  display: flex;
+}
+ul {
+  padding-left: 0;
+}
+.leftDiv {
+  padding: 35px;
+  padding-left: 45px;
+  width: 25vw;
+  min-width: 320px;
+}
+.profileDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 20px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.profileImg {
+  width: 46px;
+}
+.profileName {
+  color: #4f46e5;
+  font-size: 20px;
+  font-weight: 500;
+}
+.profileBio {
+  color: #475569;
+  font-size: 13px;
+}
+hr {
+  border: 1px solid #2c364c;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.jobTypesDiv {
+  padding-left: 10px;
+}
+.typesHead {
+  font-size: 16px;
+}
+.checkBoxDiv {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+.checkBox {
+  width: 30px;
+  margin-bottom: 10px;
+}
+.profileFailureDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.retryButton {
+  width: 100px;
+  color: #ffffff;
+  height: 38px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #4f46e5;
+}
+.rightDiv {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75vw;
+}
+.searchDiv {
+  border: 1px solid #64748b;
+  padding-top: 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  min-width: 30vw;
+  margin-bottom: 60px;
+  align-self: flex-start;
+}
+.inputSearch {
+  margin: 0;
+  border: 0;
+  flex-grow: 1;
+}
+.searchButton {
+  background-color: #202020;
+  width: 50px;
+  height: 35px;
+  padding: 9px;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+.inputSearch::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+}
+.jobsFailureDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 90vh;
+}
+.jobFailureImg {
+  width: 35vw;
+}
+.jobsFailureP {
+  margin-top: 0;
+  font-size: 13px;
+  color: #f1f5f9;
+}
+.loaderDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
